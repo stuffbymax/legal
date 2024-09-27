@@ -28,6 +28,10 @@
             justify-content: center;
             align-items: center;
         }
+        
+        h2 {
+            text-align: center;
+        }
 
         nav ul li {
             margin: 0 10px;
@@ -114,25 +118,7 @@
             filter: brightness(110%);
         }
 
-        #background-video {
-            width: 100vw;
-            height: 100vh;
-            object-fit: cover;
-            position: fixed;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            z-index: -1;
-        }
 
-        @media (max-width: 750px) {
-            
-            body {
-                background: url("./videos/47802-451812879_small.mp4") no-repeat;
-                background-size: cover;
-            }
-        }
 
         .blackbox {
             background: rgb(0, 0, 0);
@@ -168,19 +154,12 @@
             background-color: white;
             margin: 4px 0;
         }
+        a {
+       color: rgb(255, 0, 0);
+       text-decoration: none;
+       text-align: center;
+       text-decoration: none;
+       display: inline-block;
+     }
 
-        @media (max-width: 768px) {
-            nav ul {
-                display: none;
-                flex-direction: column;
-                width: 100%;
-            }
 
-            nav ul.show {
-                display: flex;
-            }
-
-            .menu-toggle {
-                display: flex;
-            }
-        }
