@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Overview of Equality Act 2010 Regulations">
+    <title>Equality Act 2010</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Equality Act 2010</h1>
+    </header>
+
+    <!-- Navigation Menu (matching the index.html structure) -->
+    <nav>
+        <div class="menu-toggle">
+            <div class="burger"></div>
+            <div class="burger"></div>
+            <div class="burger"></div>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="ComputerMisuseAct.html">Computer Misuse Act</a></li>
+            <li><a class="active" href="EqualityAct.html">Equality Act</a></li>
+            <li><a href="GDPR.html">GDPR</a></li>
+            <li><a href="health-safety.html">Health & Safety</a></li>
+            <li><a href="IPLaws.html">IP Laws</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="about-me">
+            <h2>Overview</h2>
+            <p>
+                The Equality Act 2010, often erroneously called the Equalities Act 2010, is an act of Parliament of the United Kingdom passed during the Brown ministry. 
+                The primary purpose of this act is to consolidate, update, and supplement the numerous prior Acts and Regulations that formed the basis of anti-discrimination 
+                law in the UK. It includes the Equal Pay Act 1970, the Sex Discrimination Act 1975, the Race Relations Act 1976, and the Disability Discrimination Act 1995.
+            </p>
+
+            <!-- Infographic Section -->
+            <div class="infographic">
+                <h2>Infographic</h2>
+                <img src="img/large.png" alt="Equality Act Infographic" class="shadowfilter">
+            </div>
+
+            <!-- Relevant Government Pages -->
+            <h2>Relevant Government Pages</h2>
+            <div class="social-media">
+                <a href="https://www.legislation.gov.uk/ukpga/2010/15/contents" target="_blank">Equality Act 2010 (Legislation)</a>
+                <br>
+                <a href="https://www.gov.uk/guidance/equality-act-2010-guidance" target="_blank">Equality Act 2010: Guidance (GOV.UK)</a>
+            </div>
+
+            <!-- Relevant News Articles -->
+            <h2>Relevant News Articles</h2>
+            <div class="social-media">
+                <a href="https://www.bbc.co.uk/news/topics/cgyy0pkm1v9t" target="_blank">Equality Act - BBC News</a>
+                <br>
+                <a href="https://www.theguardian.com/law/equality-act-2010" target="_blank">Equality Act 2010 (The Guardian)</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Regulatory Overview. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Mobile Menu JavaScript -->
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+        });
+    </script>
+
+</body>
+
+</html>
